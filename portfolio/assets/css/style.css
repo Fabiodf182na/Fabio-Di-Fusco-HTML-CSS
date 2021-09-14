@@ -1,0 +1,93 @@
+header {
+background-image: url("../img/neve4.jpg");
+background-size: cover;
+}
+
+#logo {
+padding: 5px;
+  border-radius: 50px;
+}
+
+.icon {
+  float: right;
+  padding: 5px;
+}
+
+.hello {
+  text-align: center;
+  margin-top: 120px;
+}
+#benvenuto{
+  font-size: 100px;
+}
+
+#me {
+  padding-bottom: 300px;
+}
+.fabio {
+padding: 25%;
+background-image:url(../img/firenze.jpg);
+background-size: cover;
+font-family: 'Montserrat', sans-serif;
+}
+#fabio {
+  text-align: center;
+  position: relative;
+  bottom: 280px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Merienda', cursive;
+  color: black;
+}
+#fabio:hover{
+  font-size: 50px;
+}
+.napoli {
+background-image: url(../img/napoli.jpg);
+padding: 25%;
+background-size: cover;
+}
+#napoli {
+  text-align: center;
+  position: relative;
+  bottom: 280px;
+  font-size: 20px;
+font-family: 'Merienda', cursive;
+  text-decoration: none;
+  color: black;
+}
+#napoli:hover {
+  font-size: 50px;
+}
+
+.ioeme {
+background-image: url(../img/stadio.jpg);
+padding: 25%;
+background-size: cover;
+}
+#ioeme {
+  text-align: center;
+  position: relative;
+  bottom: 280px;
+  font-size: 20px;
+  font-family: 'Merienda', cursive;
+  text-decoration: none;
+  color: black;
+}
+#ioeme:hover {
+  font-size: 50px;
+}
+
+p {
+  width: 33%;
+}
+.iconfooter {
+  position: relative;
+bottom: 40px;
+}
+
+@media screen and (max-width: 320px) {
+  .hello {
+    font-size: 10px;
+  }
+}
